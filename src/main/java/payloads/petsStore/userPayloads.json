@@ -1,0 +1,33 @@
+{
+  "createSingleUser": [
+    {
+      "username": "Mostafa Salem",
+      "firstName": "Mostafa",
+      "lastName": "Salem",
+      "email": "mostafa@gmail.com",
+      "password": "Mostafa1234",
+      "phone": "9439379437",
+      "userStatus": 1
+    }
+  ],
+  "createMultiUsers": [
+    {
+      "username": "Mostafa Salem",
+      "firstName": "Mostafa",
+      "lastName": "Salem",
+      "email": "mostafa@gmail.com",
+      "password": "Mostafa1234",
+      "phone": "9439379437",
+      "userStatus": 1
+    },
+    {
+      "username": "Ahmed Mohamed",
+      "firstName": "Ahmed",
+      "lastName": "Mohamed",
+      "email": "Ahmed@gmail.com",
+      "password": "Ahmed1234",
+      "phone": "9439379448",
+      "userStatus": 1
+    }
+  ]
+}

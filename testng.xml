@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="helper.Listeners"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="C:/Users/Lenovo/IdeaProjects/LastRestAssured">
+        <classes>
+            <class name="tests.Users.TestCreateNewUser">
+                <methods>
+                    <include name="createSingleUser"/>
+                    <include name="createMultiUsers"/>
+                </methods>
+            </class>
+            <class name="tests.Users.TestGetUserByName">
+                <methods>
+                    <include name="getUserByValidName"/>
+                    <include name="getUserByInvalidName"/>
+                </methods>
+            </class>
+            <class name="tests.petsStore.TestCreateNewPet">
+                <methods>
+                    <include name="createPetWithoutName"/>
+                    <include name="createPetWithoutPhoto"/>
+                </methods>
+            </class>
+            <class name="tests.petsStore.TestGetPetByID">
+                <methods>
+                    <include name="getPetByValidID"/>
+                    <include name="getPetByInvalidID"/>
+                </methods>
+            </class>
+            <class name="tests.petsStore.TestUpdatePet">
+                <methods>
+                    <include name="updatePetName"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

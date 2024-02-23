@@ -1,0 +1,38 @@
+{
+  "createPetWithoutName": {
+    "id": 1,
+    "category": {
+      "id": 0,
+      "name": "string"
+    },
+    "photoUrls": [
+      "string"
+    ],
+    "tags": [
+      {
+        "id": 0,
+        "name": "string"
+      }
+    ],
+    "status": "available"
+  },
+  "createPetWithoutPhoto": {
+    "id": 1,
+    "category": {
+      "id": 0,
+      "name": "string"
+    },
+    "name": "doggie",
+    "tags": [
+      {
+        "id": 0,
+        "name": "string"
+      }
+    ],
+    "status": "available"
+  },
+  "updatePetName": {
+    "id": 10,
+    "name": "ninja"
+  }
+}

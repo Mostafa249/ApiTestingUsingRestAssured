@@ -10,7 +10,7 @@ public class TestGetPetByID {
     private final String baseUrl = "https://petstore.swagger.io/v2";
 
     private final int validID = 10;
-    private final int invalidID = 500;
+    private final int invalidID = 1000;
 
     @Test(priority = 1)
     public void getPetByValidID() {

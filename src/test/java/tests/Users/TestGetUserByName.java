@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 public class TestGetUserByName {
     private final String baseUrl = "https://petstore.swagger.io/v2";
-    String validUserName = "user2";
+    String validUserName = "string";
     String invalidUserName = "Mostafa";
 
 
